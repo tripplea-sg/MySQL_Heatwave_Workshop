@@ -10,7 +10,8 @@
 3.	On Create MySQL DB System, under DB System Information, select a Compartment, enter a Name for the DB System, add a Description, select an Availability Domain, select a Fault Domain, select a configuration for the MySQL Shape, and click Next. 
 ![Image of picture1](https://github.com/tripplea-sg/Cloud_Administration_Workshop/blob/main/Lab-7/Screenshot%202020-11-13%20at%202.40.32%20PM.png)
 </br>
-![Image of picture1](https://github.com/tripplea-sg/Cloud_Administration_Workshop/blob/main/Lab-7/Screenshot%202020-11-13%20at%202.41.30%20PM.png)
+Click shape and choose MySQL.Heatwave.VM.Standard.E3
+![Image of picture1](https://github.com/tripplea-sg/MySQL_Heatwave_Workshop/blob/main/Lab-3/Screenshot%202021-01-26%20at%207.34.37%20AM.png)
 </br>
 4.	On Create MySQL DB System, under Database Information, create the Administrator Credentials by entering Username and Password, specify the network information selecting the Virtual Cloud Network and Subnet in the compartment and entering Hosting Name, and click Next.
 ![Image of picture1](https://github.com/tripplea-sg/Cloud_Administration_Workshop/blob/main/Lab-7/Screenshot%202020-11-13%20at%202.48.33%20PM.png)
