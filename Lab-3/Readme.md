@@ -33,5 +33,6 @@ Click shape and choose MySQL.Heatwave.VM.Standard.E3
 1. Create Internet Gateway and Routing 
 - Go to OCI, then click dashboad > Networking > Virtual Cloud Network
 - Choose your VCN, check if Internet Gateway and Routing are exist
-- If internet Gateway isn't exist, create one. On VCN, click: Internet Gateway > Create
-- If Routing table isn't exist, create one. On VCN, click: Route Tables > Create Route Tables
+- If internet Gateway isn't exist, create one. On VCN page, click: Internet Gateway > Create
+- If Routing table isn't exist, create one. On VCN page, click: Route Tables > Create Route Tables
+- On VCN page, check your routing tables. It should have a row with "Target Type" = "internet gateway". If not, then click "Add Route Rules" > Choose "Internet Gateway for "Target Type" > Use "0.0.0.0/0" as Destination CIDR Block 
