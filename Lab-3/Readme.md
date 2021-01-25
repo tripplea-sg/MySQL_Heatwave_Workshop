@@ -29,7 +29,8 @@ Click shape and choose MySQL.Heatwave.VM.Standard.E3
 </br>
 </br>
 </br>
-## How to connect to MDS/Heatwave from your laptop
+## How to quickly connect to MDS/Heatwave from your laptop
+Do not use this for real environment because it's unsafe. We use this to simplify this workshop material.
 1. Create Internet Gateway and Routing 
 - Go to OCI, then click dashboad > Networking > Virtual Cloud Network
 - Choose your VCN, check if Internet Gateway and Routing are exist
