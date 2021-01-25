@@ -39,6 +39,6 @@ Do not use this for real environment because it's unsafe. We use this to simplif
 - On VCN page, check your routing tables. It should have a row with "Target Type" = "internet gateway". If not, then click "Add Route Rules" > Choose "Internet Gateway for "Target Type" > Use "0.0.0.0/0" as Destination CIDR Block 
 2. Create Load Balancer for your MDS/Heatwave
 - On OCI dashboard, choose Networking > Load Balancers > Create Load Balancer
-
+![Image of picture1](https://github.com/tripplea-sg/MySQL_Heatwave_Workshop/blob/main/Lab-3/Screenshot%202021-01-26%20at%207.52.54%20AM.png)
 -
 
