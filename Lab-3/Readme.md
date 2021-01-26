@@ -50,10 +50,10 @@ Done! We have 1 Load Balancer.
 - Go to your load balancer, click "Bucket Sets" > click the bucket set you see on the page
 ![Image of picture1](https://github.com/tripplea-sg/Cloud_Administration_Workshop/blob/main/Lab-7/Screenshot%202020-11-13%20at%202.50.18%20PM.png)
 - Click: Backends > "Add Backends"
-![Image of picture1](https://github.com/tripplea-sg/Cloud_Administration_Workshop/blob/main/Lab-7/Screenshot%202020-11-13%20at%202.50.18%20PM.png)
 - Set IP Address as internal IP Address of the MDS, and Port is the MySQL Port number
 ![Image of picture1](https://github.com/tripplea-sg/Cloud_Administration_Workshop/blob/main/Lab-7/Screenshot%202020-11-13%20at%202.50.18%20PM.png)
 - Click "Add" and just wait until new backend is registered
+![Image of picture1](https://github.com/tripplea-sg/MySQL_Heatwave_Workshop/blob/main/Lab-3/Screenshot%202021-01-26%20at%208.30.08%20AM.png)
 Now we can connect to MDS / Heatwave from our laptop
 1. On Load Balancer Details page, see Public IP address
 ![Image of picture1](https://github.com/tripplea-sg/MySQL_Heatwave_Workshop/blob/main/Lab-3/Screenshot%202021-01-26%20at%208.30.34%20AM.png)
