@@ -56,7 +56,7 @@ Done! We have 1 Load Balancer.
 - Click "Add" and just wait until new backend is registered
 Now we can connect to MDS / Heatwave from our laptop
 1. On Load Balancer Details page, see Public IP address
-![Image of picture1](https://github.com/tripplea-sg/Cloud_Administration_Workshop/blob/main/Lab-7/Screenshot%202020-11-13%20at%202.50.18%20PM.png)
+![Image of picture1](https://github.com/tripplea-sg/MySQL_Heatwave_Workshop/blob/main/Lab-3/Screenshot%202021-01-26%20at%208.30.34%20AM.png)
 2. On your local machine, connect to MDS via mysql CLI
 ```
 $ mysql -u<user> -p<password> -h<Load_balancer_public_IP_address>
