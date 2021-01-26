@@ -1,6 +1,5 @@
 # Working with MySQL Heatwave
-Obtain data.zip from the trainer, this is the backup dump for our workshop's data set. </br>
-Extract data.zip to and perform the following
+Obtain data.zip from the trainer, extract data.zip to local drive and perform the following
 
 1. Load Dump to MySQL Heatwave
 Login to database using MySQL Shell
@@ -108,4 +107,6 @@ mysqlsh > SELECT VARIABLE_VALUE FROM performance_schema.global_status WHERE VARI
 mysqlsh > CALL covid19.addTreatment(0, 1000);
 ```
 11. Best Practices
+```
 https://dev.mysql.com/doc/heatwave/en/heatwave-best-practices.html
+```
