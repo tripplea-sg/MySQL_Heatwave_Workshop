@@ -51,4 +51,14 @@ Done! We have 1 Load Balancer.
 - Click: Backends > "Add Backends"
 - Set IP Address as internal IP Address of the MDS, and Port is the MySQL Port number
 - Click "Add" and just wait until new backend is registered
+Now we can connect to MDS / Heatwave from our laptop
+1. On Load Balancer Details page, see Public IP address
 
+2. On your local machine, connect to MDS via mysql CLI
+```
+$ mysql -u<user> -p<password> -h<Load_balancer_public_IP_address>
+```
+3. On your local, machine, connect to MDS via mysql shell
+```
+$ mysqlsh <user>@<Load_balancer_public_IP_address>:<Load_balancer_port>
+```
