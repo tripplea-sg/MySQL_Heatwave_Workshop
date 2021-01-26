@@ -44,4 +44,11 @@ Set minimum bandwidth and maximum bandwidth, and click Next
 - On choose backend, set as follow and click Next
 ![Image of picture1](https://github.com/tripplea-sg/MySQL_Heatwave_Workshop/blob/main/Lab-3/Screenshot%202021-01-26%20at%207.52.54%20AM.png)
 - On Configure Listener, set as follow and click Next
-![Image of picture1](https://github.com/tripplea-sg/MySQL_Heatwave_Workshop/blob/main/Lab-3/Screenshot%202021-01-26%20at%207.52.54%20AM.png)
+![Image of picture1](https://github.com/tripplea-sg/MySQL_Heatwave_Workshop/blob/main/Lab-3/Screenshot%202021-01-26%20at%208.08.18%20AM.png)
+Done! We have 1 Load Balancer.
+3. Link this load balancer to MDS / Heatwave instance
+- Go to your load balancer, click "Bucket Sets" > click the bucket set you see on the page
+- Click: Backends > "Add Backends"
+- Set IP Address as internal IP Address of the MDS, and Port is the MySQL Port number
+- Click "Add" and just wait until new backend is registered
+
