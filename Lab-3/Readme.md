@@ -40,6 +40,6 @@ Do not use this for real environment because it's unsafe. We use this to simplif
 2. Create Load Balancer for your MDS/Heatwave
 - On OCI dashboard, choose Networking > Load Balancers > Create Load Balancer
 ![Image of picture1](https://github.com/tripplea-sg/MySQL_Heatwave_Workshop/blob/main/Lab-3/Screenshot%202021-01-26%20at%207.52.54%20AM.png)
-Choose minimum bandwidth and maximum bandwidth
--
-
+Set minimum bandwidth and maximum bandwidth, and click Next
+- On choose backend, set as follow and click Next
+![Image of picture1](https://github.com/tripplea-sg/MySQL_Heatwave_Workshop/blob/main/Lab-3/Screenshot%202021-01-26%20at%207.52.54%20AM.png)
