@@ -43,3 +43,5 @@ Do not use this for real environment because it's unsafe. We use this to simplif
 Set minimum bandwidth and maximum bandwidth, and click Next
 - On choose backend, set as follow and click Next
 ![Image of picture1](https://github.com/tripplea-sg/MySQL_Heatwave_Workshop/blob/main/Lab-3/Screenshot%202021-01-26%20at%207.52.54%20AM.png)
+- On Configure Listener, set as follow and click Next
+![Image of picture1](https://github.com/tripplea-sg/MySQL_Heatwave_Workshop/blob/main/Lab-3/Screenshot%202021-01-26%20at%207.52.54%20AM.png)
