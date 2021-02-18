@@ -10,5 +10,9 @@
 | [Lab 4](https://github.com/tripplea-sg/MySQL_Heatwave_Workshop/tree/main/Lab-4) | Migrate your local database to MDS |
 | [Lab 5](https://github.com/tripplea-sg/MySQL_Heatwave_Workshop/blob/main/Lab-5) | Backup MDS |
 | [Lab 6](https://github.com/tripplea-sg/MySQL_Heatwave_Workshop/tree/main/Lab-6) | Heatwave |
+| [Lab 7](https://github.com/tripplea-sg/MySQL_Heatwave_Workshop/tree/main/Lab-7) | Heatwave for Oracle Analytics Cloud |
+
+
+
 
 
