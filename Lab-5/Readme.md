@@ -1,5 +1,5 @@
 # Working with MySQL Heatwave
-Obtain data.zip from the trainer, extract data.zip to local drive and perform the following
+Extract data.zip using "unzip" to local drive and perform the following
 
 1. Load Dump to MySQL Heatwave
 Login to database using MySQL Shell
@@ -8,8 +8,8 @@ mysqlsh system@<your_load_balancer_public_ip>:3306
 ```
 On MySQL Shell
 ```
-mysqlsh > util.loadDump('<your_backup_directory>', {dryRun:true})
-mysqlsh > util.loadDump('<your_backup_directory>', {dryRun:false})
+mysqlsh > util.loadDump('data', {dryRun:true})
+mysqlsh > util.loadDump('data', {dryRun:false})
 ```
 
 2. Switch MySQL Shell's session to SQL
