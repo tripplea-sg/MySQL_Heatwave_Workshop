@@ -1,4 +1,17 @@
-# Working with MySQL Heatwave
+# MySQL Databasex Migration to MDS/Heatwave
+1. Download and install MySQL Server to your laptop (skip the following steps if you already have MySQL server runs on your laptop)
+```
+Download the MySQL Server installer from https://dev.mysql.com/downloads/mysql/
+Install MySQL Server to your laptop. Follow this URL: https://dev.mysql.com/doc/mysql-windows-excerpt/8.0/en/mysql-installer-workflow-server.html
+Ensure database with port 3306 is running.
+```
+2. Download and install MySQL Shell to your laptop (skip the following steps if you already have MySQL Shell)
+
+
+
+
+
+
 Obtain data.zip from the trainer, extract data.zip to local drive and perform the following
 
 1. Load Dump to MySQL Heatwave
