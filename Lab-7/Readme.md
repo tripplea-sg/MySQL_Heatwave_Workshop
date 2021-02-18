@@ -31,7 +31,7 @@ Click the URL to open the Analytics Cloud
 ## 4. Create Connection
 Click button "Create" on the top right.
 Click Connection and select MySQL
-
+https://github.com/tripplea-sg/MySQL_Heatwave_Workshop/blob/main/Lab-7/Screenshot%202021-02-18%20at%2011.15.43%20PM.png
 Enter host=<Load Balancer IP>, 
 ## 5. Create and Select Data Source
 
