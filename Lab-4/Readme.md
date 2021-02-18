@@ -28,5 +28,32 @@ Connect to your MDS using MySQL Shell thru load balancer public IP Address
 ```
 mysqlsh system@<load-balancer-ip-address>:3306
 ```
+Check GTID status
+```
+ MySQL  193.122.72.139:3306 ssl  JS > \sql show variables like 'gtid%';
++----------------------------------+--------------------------------------------+
+| Variable_name                    | Value                                      |
++----------------------------------+--------------------------------------------+
+| gtid_executed                    | 2126f055-5fb0-11eb-bf31-02001700c24f:1-234 |
+| gtid_executed_compression_period | 0                                          |
+| gtid_mode                        | ON                                         |
+| gtid_next                        | AUTOMATIC                                  |
+| gtid_owned                       |                                            |
+| gtid_purged                      | 2126f055-5fb0-11eb-bf31-02001700c24f:1-234 |
++----------------------------------+--------------------------------------------+
+6 rows in set (0.2549 sec)
+ MySQL  193.122.72.139:3306 ssl  JS > 
+```
+Restore database from backup:
+```
+MySQL  193.122.72.139:3306 ssl  JS > util.loadDump('backup',{dryRun:false,updateGtidSet:'append'})
+```
+Note:
+1. "backup": is the backup file location on local machine
+2. updateGtidSet (off | append | replace): is parameter to apply GTID set from source.
+- off (default): not apply GTID set
+- append: if GTID set is not superset 
+- replace: if GTID set is superset 
+
 
 
