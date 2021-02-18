@@ -1,5 +1,5 @@
 # Heatwave for Oracle Analytics Cloud (OAC)
-1. Create policy
+## 1. Create policy
 ```
 a. Go to OCI Dashboard
 b. Click Identity > Policies
@@ -14,7 +14,7 @@ allow group Administrators to manage analytics-instances in compartment ManagedC
 <see below example>
 ```
 ![Image of picture1](https://github.com/tripplea-sg/MySQL_Heatwave_Workshop/blob/main/Lab-7/Screenshot%202021-02-18%20at%2010.20.56%20PM.png)
-2. Provision Oracle Analytics Cloud (OAC)
+## 2. Provision Oracle Analytics Cloud (OAC)
 ```
 a. on OCI Dashboard menu
 b. Click Analytics > Analytics Cloud
@@ -24,10 +24,13 @@ e. Click button "Create"
 ```
 ![Image of picture1](https://github.com/tripplea-sg/MySQL_Heatwave_Workshop/blob/main/Lab-7/Screenshot%202021-02-18%20at%208.47.45%20PM.png)
 Wait until OAC instance is running.
-3. Access OAC istance
+## 3. Access OAC istance
 Click the OAC instance to go to the following form.
 ![Image of picture1](https://github.com/tripplea-sg/MySQL_Heatwave_Workshop/blob/main/Lab-7/Screenshot%202021-02-18%20at%2010.45.17%20PM.png)
 Click the URL to open the Analytics Cloud
+## 4. Create Connection
+
+## 5. Create and Select Data Source
 
 
 
