@@ -11,11 +11,13 @@ Download the MySQL Shell 8.0.23 from https://dev.mysql.com/downloads/shell/
 Install MySQL Shell 8.0.23 to your laptop.
 Follow this URL: https://dev.mysql.com/doc/mysql-shell/8.0/en/mysql-shell-install-windows-quick.html
 ```
-3. Download Data Sets from FTP Server
+3. Download Data Sets from Server
 ```
-a. Get FTP Server's IP Address, username, and password from the instructor
-b. Connect to FTP Server
+a. Get Server's IP Address, username, and password from the instructor
+b. Connect to Server using scp or windows scp
 c. Download 3 files: sakila-schema.sql, sakila-data.sql, and data.zip
+
+e.g. command in Linux: scp ftpuser@193.122.75.56:/home/ftpuser/* .
 ```
 ## B. Install Database Server 8.0.23 if you have not install before
 Run the installer
