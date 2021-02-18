@@ -25,6 +25,10 @@ e. Click button "Create"
 ![Image of picture1](https://github.com/tripplea-sg/MySQL_Heatwave_Workshop/blob/main/Lab-7/Screenshot%202021-02-18%20at%208.47.45%20PM.png)
 Wait until OAC instance is running.
 ## 3. Access OAC istance
+There are 3 ways to access MDS/Heatwave from OAC:
+1. Load Balancer IP address
+2. Remote Data Gateway (RDG)
+3. Private Access Connect (PAC) - Recommended
 Click the OAC instance to go to the following form.
 ![Image of picture1](https://github.com/tripplea-sg/MySQL_Heatwave_Workshop/blob/main/Lab-7/Screenshot%202021-02-18%20at%2010.45.17%20PM.png)
 Click the URL to open the Analytics Cloud
@@ -33,6 +37,7 @@ Click button "Create" on the top right.
 Click Connection and select MySQL
 https://github.com/tripplea-sg/MySQL_Heatwave_Workshop/blob/main/Lab-7/Screenshot%202021-02-18%20at%2011.15.43%20PM.png
 Enter host=<Load Balancer IP>, 
+https://github.com/tripplea-sg/MySQL_Heatwave_Workshop/blob/main/Lab-7/Screenshot%202021-02-18%20at%2011.15.59%20PM.png
 ## 5. Create and Select Data Source
 
 
