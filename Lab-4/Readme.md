@@ -1,5 +1,5 @@
-# MySQL Database Migration to MDS/Heatwave
-## A. Install Database Server 8.0.23 
+# Migrate your local database to MDS
+## A. Backup your local database using MySQL Shell 
 skip the following steps if you already have MySQL server 8.0.23 runs on your laptop </br>
 Download and install MySQL Server 8.0.23 to your laptop 
 ```
@@ -17,6 +17,7 @@ Download the MySQL Shell 8.0.23 from https://dev.mysql.com/downloads/shell/
 Install MySQL Shell 8.0.23 to your laptop.
 Follow this URL: https://dev.mysql.com/doc/mysql-shell/8.0/en/mysql-shell-install-windows-quick.html
 ```
+## B. Restore your local database using MySQL Shell
 
 
 
