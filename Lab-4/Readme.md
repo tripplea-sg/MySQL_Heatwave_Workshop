@@ -1,5 +1,6 @@
 # MySQL Database Migration to MDS/Heatwave
-## Install Database Server 8.0.23 (skip the following steps if you already have MySQL server 8.0.23 runs on your laptop)
+## A. Install Database Server 8.0.23 
+skip the following steps if you already have MySQL server 8.0.23 runs on your laptop </br>
 Download and install MySQL Server 8.0.23 to your laptop 
 ```
 Download the MySQL Server 8.0.23 installer from https://dev.mysql.com/downloads/mysql/
