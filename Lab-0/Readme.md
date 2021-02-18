@@ -8,6 +8,14 @@ Download the MySQL Server 8.0.23 installer from https://dev.mysql.com/downloads/
 2. Install MySQL Server 8.0.23 to your laptop </br>
 Run the installer
 ![Image of picture1](https://github.com/tripplea-sg/MySQL_Heatwave_Workshop/blob/main/Lab-0/Screenshot%202021-02-18%20at%202.30.39%20PM.png)
+Click button "continue"
+![Image of picture1](https://github.com/tripplea-sg/MySQL_Heatwave_Workshop/blob/main/Lab-0/Screenshot%202021-02-18%20at%202.30.50%20PM.png)
+On license page, click button "continue"
+![Image of picture1](https://github.com/tripplea-sg/MySQL_Heatwave_Workshop/blob/main/Lab-0/Screenshot%202021-02-18%20at%202.31.07%20PM.png)
+![Image of picture1](https://github.com/tripplea-sg/MySQL_Heatwave_Workshop/blob/main/Lab-0/Screenshot%202021-02-18%20at%202.32.16%20PM.png)
+On Configuration page, choose "Use Strong Password Encryption" and click button "Next"
+![Image of picture1](https://github.com/tripplea-sg/MySQL_Heatwave_Workshop/blob/main/Lab-0/Screenshot%202021-02-18%20at%202.32.30%20PM.png)
+Key-in to-be "root password" as "Manager@123", enable checkbox "Start MySQL Instance once finished", and click button "Finish"
 
 
 
