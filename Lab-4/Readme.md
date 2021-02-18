@@ -15,6 +15,13 @@ On mysql shell, backup database using the following command:
 ```
 util.dumpInstance("backup", {dryRun: false, ocimds: true, compatibility: ["strip_definers", "strip_restricted_grants"], consistent:true})
 ```
+Note:
+1. "backup": the location where backup file will be stored
+2. "dryRun" (true | false): false - do actual backup, true - check if the backup can be successfully executed
+3. "ocimds" (true | false): true - for import to MDS to ensure compatibility, false - does not check this
+4. "compatibility: strip_definers": Remove the DEFINER clause from views, routines, events, and triggers
+5. "compatibility: strip_restricted_grants": Remove specific privileges that are restricted by MDS
+6. "consistent" (true | false): true - consistency on InnoDB is guarranted
 ## B. Restore your local database to MDS using MySQL Shell
 
 
