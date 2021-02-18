@@ -33,11 +33,19 @@ Click the OAC instance to go to the following form.
 ![Image of picture1](https://github.com/tripplea-sg/MySQL_Heatwave_Workshop/blob/main/Lab-7/Screenshot%202021-02-18%20at%2010.45.17%20PM.png)
 Click the URL to open the Analytics Cloud
 ## 4. Create Connection
-Click button "Create" on the top right.
-Click Connection and select MySQL
-https://github.com/tripplea-sg/MySQL_Heatwave_Workshop/blob/main/Lab-7/Screenshot%202021-02-18%20at%2011.15.43%20PM.png
-Enter host=<Load Balancer IP>, 
-https://github.com/tripplea-sg/MySQL_Heatwave_Workshop/blob/main/Lab-7/Screenshot%202021-02-18%20at%2011.15.59%20PM.png
+- Click button "Create" on the top right.
+- Click Connection and select MySQL
+![Image of picture1](https://github.com/tripplea-sg/MySQL_Heatwave_Workshop/blob/main/Lab-7/Screenshot%202021-02-18%20at%2011.15.43%20PM.png)
+- Enter 
+```
+Connection Name = MDS
+Host = Load Balancer IP
+Port = 3306
+Database Name = covid19
+Username = test
+Password = Manager@123
+```
+![Image of picture1](https://github.com/tripplea-sg/MySQL_Heatwave_Workshop/blob/main/Lab-7/Screenshot%202021-02-18%20at%2011.15.59%20PM.png)
 ## 5. Create and Select Data Source
 
 
