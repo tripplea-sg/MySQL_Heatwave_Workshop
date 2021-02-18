@@ -8,8 +8,8 @@ d. Enter Policy Name and description: oac-policy
 e. Click "Customize (Advanced)" (see on the right)
 f. On policy builder, copy and paste the following policies:
 
-allow group <your group> to manage analytics-instances in tenancy
-allow group <your group> to manage analytics-instances in compartment <your compartment name>
+allow group Administrators to manage analytics-instances in tenancy
+allow group Administrators to manage analytics-instances in compartment ManagedCompartmentForPaaS
 
 <see below example>
 ```
