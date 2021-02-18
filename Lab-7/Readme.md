@@ -26,7 +26,7 @@ e. Click button "Create"
 Wait until OAC instance is running.
 3. Access OAC istance
 Click the OAC instance to go to the following form.
-![Image of picture1](https://github.com/tripplea-sg/MySQL_Heatwave_Workshop/blob/main/Lab-7/Screenshot%202021-02-18%20at%208.47.45%20PM.png)
+![Image of picture1](https://github.com/tripplea-sg/MySQL_Heatwave_Workshop/blob/main/Lab-7/Screenshot%202021-02-18%20at%2010.45.17%20PM.png)
 Click the URL to open the Analytics Cloud
 
 
