@@ -13,7 +13,7 @@ Save password for 'root@localhost:3306'? [Y]es/[N]o/Ne[v]er (default No): Y
 ```
 On mysql shell, backup database using the following command:
 ```
-util.dumpInstance("/home/opc/backup2", {dryRun: false, ocimds: true, compatibility: ["strip_definers", "strip_restricted_grants"], consistent:true})
+util.dumpInstance("backup", {dryRun: false, ocimds: true, compatibility: ["strip_definers", "strip_restricted_grants"], consistent:true})
 ```
 ## B. Restore your local database to MDS using MySQL Shell
 
