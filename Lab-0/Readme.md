@@ -42,3 +42,17 @@ mysql > show databases;
 mysql > exit;
 
 ```
+## C. Prepare the Data Set
+1. Restore sakila schema and data to your local database
+```
+mysql -uroot -p"Manager@123" < sakila-schema.sql
+mysql -uroot -p"Manager@123" < sakila-data.sql
+```
+2. Check if sakila schema is already inside your local database
+```
+mysql -uroot -p"Manager@123" -e "show databases"
+```
+3. Unzip data set
+```
+unzip data.zip
+```
