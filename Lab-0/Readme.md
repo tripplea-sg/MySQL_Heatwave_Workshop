@@ -6,7 +6,7 @@ Skip the following steps if you already have MySQL server 8.0.23 runs on your la
 Download the MySQL Server 8.0.23 installer from https://dev.mysql.com/downloads/mysql/
 ```
 2. Install MySQL Server 8.0.23 to your laptop </br>
-Click the installer
+Run the installer
 
 
 
