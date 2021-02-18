@@ -72,7 +72,17 @@ mysql -uroot -p"Manager@123" < sakila-data.sql
 ```
 mysql -uroot -p"Manager@123" -e "show databases"
 ```
-3. Unzip data set
+3. Check and note down the GTID_EXECUTED value for later lab exercise
 ```
-unzip data.zip
+root@::1:3306> show variables like 'gtid%';
++----------------------------------+-------------------------------------------+
+| Variable_name                    | Value                                     |
++----------------------------------+-------------------------------------------+
+| gtid_executed                    | 1b6a39d4-71b3-11eb-81ca-23285f67e33f:1-55 |
+| gtid_executed_compression_period | 0                                         |
+| gtid_mode                        | ON                                        |
+| gtid_next                        | AUTOMATIC                                 |
+| gtid_owned                       |                                           |
+| gtid_purged                      |                                           |
++----------------------------------+-------------------------------------------+
 ```
