@@ -33,8 +33,6 @@ Ways to connect to MDS:
 1. Site to site VPN from local network to VCN (https://blogs.oracle.com/mysql/migrate-from-on-premise-mysql-to-mysql-database-service)
 2. SSH tunelling to jump host / bastion host (https://lefred.be/content/testing-mysql-database-service-without-vpn-part-2/)
 3. Load balancer (not recommended, very unsecure)
-</br>
-</br>
 ## How to quickly connect to MDS/Heatwave from your laptop using Load Balancer
 Do not use this for real environment because it's unsafe. We use this to simplify this workshop material.
 1. Create Internet Gateway and Routing 
