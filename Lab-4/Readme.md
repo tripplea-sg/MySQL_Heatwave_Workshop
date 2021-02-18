@@ -1,4 +1,4 @@
-# MySQL Databasex Migration to MDS/Heatwave
+# MySQL Database Migration to MDS/Heatwave
 1. Download and install MySQL Server to your laptop (skip the following steps if you already have MySQL server runs on your laptop)
 ```
 Download the MySQL Server installer from https://dev.mysql.com/downloads/mysql/
