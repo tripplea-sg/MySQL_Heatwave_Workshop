@@ -4,5 +4,5 @@
 3. Click your database
 4. On Resource menu > click Backup
 5. Click button "Create Manual Backup"
+![Image of picture1](https://github.com/tripplea-sg/MySQL_Heatwave_Workshop/blob/main/Lab-5/Screenshot%202021-02-18%20at%206.19.41%20PM.png)
 
-https://github.com/tripplea-sg/MySQL_Heatwave_Workshop/blob/main/Lab-5/Screenshot%202021-02-18%20at%206.19.41%20PM.png
