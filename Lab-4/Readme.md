@@ -14,6 +14,7 @@ Save password for 'root@localhost:3306'? [Y]es/[N]o/Ne[v]er (default No): Y
 On mysql shell, backup database using the following command:
 ```
 util.dumpInstance("backup", {dryRun: false, ocimds: true, compatibility: ["strip_definers", "strip_restricted_grants"], consistent:true})
+\q
 ```
 Note:
 1. "backup": the location where backup file will be stored
@@ -23,10 +24,9 @@ Note:
 5. "compatibility: strip_restricted_grants": Remove specific privileges that are restricted by MDS
 6. "consistent" (true | false): true - consistency on InnoDB is guarranted
 ## B. Restore your local database to MDS using MySQL Shell
+Connect to your MDS using MySQL Shell thru load balancer public IP Address
+```
+mysqlsh system@<load-balancer-ip-address>:3306
+```
 
-
-
-
-
-Obtain data.zip from the trainer, extract data.zip to local drive and perform the following
 
