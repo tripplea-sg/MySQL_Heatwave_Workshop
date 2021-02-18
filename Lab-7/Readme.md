@@ -13,4 +13,5 @@ allow group Administrator-Group to manage analytics-instances in compartment <yo
 
 <see below example>
 ```
+![Image of picture1](https://github.com/tripplea-sg/Cloud_Administration_Workshop/blob/main/Lab-7/Screenshot%202020-11-13%20at%202.39.07%20PM.png)
 
