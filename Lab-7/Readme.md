@@ -29,7 +29,10 @@ Click the OAC instance to go to the following form.
 ![Image of picture1](https://github.com/tripplea-sg/MySQL_Heatwave_Workshop/blob/main/Lab-7/Screenshot%202021-02-18%20at%2010.45.17%20PM.png)
 Click the URL to open the Analytics Cloud
 ## 4. Create Connection
+Click button "Create" on the top right.
+Click Connection and select MySQL
 
+Enter host=<Load Balancer IP>, 
 ## 5. Create and Select Data Source
 
 
