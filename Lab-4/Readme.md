@@ -71,6 +71,6 @@ MySQL  193.122.72.139:3306 ssl  JS > \sql show variables like 'gtid%';
 2126f055-5fb0-11eb-bf31-02001700c24f:1-234 |
 +----------------------------------+---------------------------------------------------------------------------------------+
 ```
-The GTID set is a subset of GTID set on source database, thus replication can be created between source and MDS to transfer delta transactions.
+The GTID set is a subset of GTID set on source database, thus replication can be created between source and MDS to replicate all delta transactions until cutover.
  
 
