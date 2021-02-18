@@ -71,5 +71,5 @@ select p.id, p.age, p.gender, p.admin2, v.province, v.countryname, c.continental
 - Give it a name and make sure you select Live in the Data Access field
 ![Image of picture1](https://github.com/tripplea-sg/MySQL_Heatwave_Workshop/blob/main/Lab-7/Screenshot%202021-02-18%20at%2011.49.30%20PM.png)
 - You are now ready to build the dashboard You can pick and choose columns from the left pane to build your dashboard
-![Image of picture1](https://github.com/tripplea-sg/MySQL_Heatwave_Workshop/blob/main/Lab-7/Screenshot%202021-02-18%20at%2011.15.59%20PM.png)
+![Image of picture1](https://github.com/tripplea-sg/MySQL_Heatwave_Workshop/blob/main/Lab-7/Screenshot%202021-02-18%20at%2011.49.40%20PM.png)
 
