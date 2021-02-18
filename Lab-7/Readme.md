@@ -22,5 +22,7 @@ c. Click button "Create Instance"
 d. Enter instance name = "workshop"
 e. Click button "Create"
 ```
+![Image of picture1](https://github.com/tripplea-sg/MySQL_Heatwave_Workshop/blob/main/Lab-7/Screenshot%202021-02-18%20at%208.47.45%20PM.png)
+
 
 
