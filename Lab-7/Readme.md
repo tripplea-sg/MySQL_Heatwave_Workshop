@@ -13,5 +13,14 @@ allow group <your group> to manage analytics-instances in compartment <your comp
 
 <see below example>
 ```
-![Image of picture1](https://github.com/tripplea-sg/MySQL_Heatwave_Workshop/blob/main/Lab-7/Screenshot%202021-02-18%20at%208.34.32%20PM.png)
+![Image of picture1](https://github.com/tripplea-sg/MySQL_Heatwave_Workshop/blob/main/Lab-7/Screenshot%202021-02-18%20at%208.42.09%20PM.png)
+2. Provision Oracle Analytics Cloud (OAC)
+```
+a. on OCI Dashboard menu
+b. Click Analytics > Analytics Cloud
+c. Click button "Create Instance"
+d. Enter instance name = "workshop"
+e. Click button "Create"
+```
+
 
