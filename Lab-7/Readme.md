@@ -38,7 +38,7 @@ Click the URL to open the Analytics Cloud
 ![Image of picture1](https://github.com/tripplea-sg/MySQL_Heatwave_Workshop/blob/main/Lab-7/Screenshot%202021-02-18%20at%2011.15.43%20PM.png)
 - Enter 
 ```
-Connection Name = MDS
+Connection Name = covid19
 Host = Load Balancer IP
 Port = 3306
 Database Name = covid19
@@ -47,6 +47,12 @@ Password = Manager@123
 ```
 ![Image of picture1](https://github.com/tripplea-sg/MySQL_Heatwave_Workshop/blob/main/Lab-7/Screenshot%202021-02-18%20at%2011.15.59%20PM.png)
 ## 5. Create and Select Data Source
-
-
+- Click button "Create" on the top right.
+- Click "Data Set" and select "covid19"
+- Add the following SQL
+```
+select p.id, p.age, p.gender, p.admin2, v.province, v.countryname, c.continental, p.acquireddate, p.recovereddate, p.passawaydate from covid19.patient p, covid19.province v, covid19.country c where p.provinceid=v.id and v.countryid=c.id;
+```
+- Give it a name and make sure you select Live in the Data Access field
+- You are now ready to build the dashboard You can pick and choose columns from the left pane to build your dashboard
 
