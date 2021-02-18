@@ -72,5 +72,9 @@ MySQL  193.122.72.139:3306 ssl  JS > \sql show variables like 'gtid%';
 +----------------------------------+---------------------------------------------------------------------------------------+
 ```
 The GTID set is a subset of GTID set on source database, thus replication can be created between source and MDS to replicate all delta transactions until cutover.
- 
+Migration approach high level:
+1. Backup-restore and replication
+![Image of picture1](https://github.com/tripplea-sg/MySQL_Heatwave_Workshop/blob/main/Lab-4/Screenshot%202021-02-18%20at%205.44.43%20PM.png) 
+2. Cutover and application migration (apps migration can be optional)
+![Image of picture1](https://github.com/tripplea-sg/MySQL_Heatwave_Workshop/blob/main/Lab-4/Screenshot%202021-02-18%20at%205.44.54%20PM.png)
 
