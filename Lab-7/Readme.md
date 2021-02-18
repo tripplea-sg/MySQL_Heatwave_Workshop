@@ -13,7 +13,7 @@ allow group Administrators to manage analytics-instances in compartment ManagedC
 
 <see below example>
 ```
-![Image of picture1](https://github.com/tripplea-sg/MySQL_Heatwave_Workshop/blob/main/Lab-7/Screenshot%202021-02-18%20at%208.42.09%20PM.png)
+![Image of picture1](https://github.com/tripplea-sg/MySQL_Heatwave_Workshop/blob/main/Lab-7/Screenshot%202021-02-18%20at%2010.20.56%20PM.png)
 2. Provision Oracle Analytics Cloud (OAC)
 ```
 a. on OCI Dashboard menu
