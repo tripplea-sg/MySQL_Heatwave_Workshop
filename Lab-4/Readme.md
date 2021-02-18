@@ -54,6 +54,23 @@ Note:
 - off (default): not apply GTID set
 - append: if GTID set is not superset 
 - replace: if GTID set is superset 
-
-
+## C. Using Replication to Replicate Delta transaction to achieve a minimum migration downtime
+Check GTID status
+```
+MySQL  193.122.72.139:3306 ssl  JS > \sql show variables like 'gtid%';
++----------------------------------+---------------------------------------------------------------------------------------+
+| Variable_name                    | Value                                                                                 |
++----------------------------------+---------------------------------------------------------------------------------------+
+| gtid_executed                    | 1b6a39d4-71b3-11eb-81ca-23285f67e33f:1-55,
+2126f055-5fb0-11eb-bf31-02001700c24f:1-327 |
+| gtid_executed_compression_period | 0                                                                                     |
+| gtid_mode                        | ON                                                                                    |
+| gtid_next                        | AUTOMATIC                                                                             |
+| gtid_owned                       |                                                                                       |
+| gtid_purged                      | 1b6a39d4-71b3-11eb-81ca-23285f67e33f:1-55,
+2126f055-5fb0-11eb-bf31-02001700c24f:1-234 |
++----------------------------------+---------------------------------------------------------------------------------------+
+```
+The GTID set is a subset of GTID set on source database, thus replication can be created between source and MDS to transfer delta transactions.
+ 
 
