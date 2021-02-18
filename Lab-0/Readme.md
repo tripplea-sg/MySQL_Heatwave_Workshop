@@ -44,7 +44,25 @@ mysql > show databases;
 mysql > exit;
 
 ```
-## C. Prepare the Data Set
+## C. Change GTID mode and server_id of your local database
+Login to local mysql
+```
+mysql -uroot -p"Manager@123"
+```
+Change server_id value
+```
+set persist server_id=100;
+```
+Change GTID_MODE to ON
+```
+set persist gtid_mode='OFF_PERMISSIVE';
+set persist gtid_mode='ON_PERMISSIVE';
+set persist enforce_gtid_consistency='ON';
+set persist gtid_mode='ON';
+exit;
+```
+
+## D. Prepare the Data Set
 1. Restore sakila schema and data to your local database
 ```
 mysql -uroot -p"Manager@123" < sakila-schema.sql
