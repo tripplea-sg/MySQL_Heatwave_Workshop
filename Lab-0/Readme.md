@@ -16,12 +16,19 @@ On license page, click button "continue"
 On Configuration page, choose "Use Strong Password Encryption" and click button "Next"
 ![Image of picture1](https://github.com/tripplea-sg/MySQL_Heatwave_Workshop/blob/main/Lab-0/Screenshot%202021-02-18%20at%202.32.30%20PM.png)
 Key-in to-be "root password" as "Manager@123", enable checkbox "Start MySQL Instance once finished", and click button "Finish"
-
-
-
-
-
+![Image of picture1](https://github.com/tripplea-sg/MySQL_Heatwave_Workshop/blob/main/Lab-0/Screenshot%202021-02-18%20at%202.32.57%20PM.png)
 Ensure database with port 3306 is running.
+```
+1. Open terminal
+2. Login to MySQL
+
+mysql -uroot -p"Manager@123"
+
+3. Show databases
+
+mysql > show databases;
+mysql > exit;
+
 ```
 2. Download and install MySQL Shell to your laptop (skip the following steps if you already have MySQL Shell)
 ```
