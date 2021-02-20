@@ -17,7 +17,7 @@ a. Get Server's IP Address, username, and password from the instructor
 b. Connect to Server using scp or windows scp
 c. Download 3 files: sakila-schema.sql, sakila-data.sql, and data.zip
 
-e.g. command in Linux: scp ftpuser@yyyy.yyyy.yyyy.yyy:/home/ftpuser/* .
+e.g. command in Linux: scp ftpuser@yyy.yyy.yyy.yyy:/home/ftpuser/* .
 ```
 ## B. Install Database Server 8.0.23 if you have not install before
 Run the installer
