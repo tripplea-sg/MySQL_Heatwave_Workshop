@@ -42,6 +42,7 @@ Do not use this for real environment because it's unsafe. We use this to simplif
 - If internet Gateway isn't exist, create one. On VCN page, click: Internet Gateway > Create
 - If Routing table isn't exist, create one. On VCN page, click: Route Tables > Create Route Tables
 - On VCN page, check your routing tables. It should have a row with "Target Type" = "internet gateway". If not, then click "Add Route Rules" > Choose "Internet Gateway for "Target Type" > Use "0.0.0.0/0" as Destination CIDR Block 
+- On VCN page, check your security list. It should allow port 3306 from all sources to all destinations. To simplify this workshop and eliminate issue, let's put aside security by allowing all ports from all sources to all destinations (Set source 0.0.0.0/0, port: All on both source and destination)
 2. Create Load Balancer for your MDS/Heatwave
 - On OCI dashboard, choose Networking > Load Balancers > Create Load Balancer
 ![Image of picture1](https://github.com/tripplea-sg/MySQL_Heatwave_Workshop/blob/main/Lab-3/Screenshot%202021-01-26%20at%207.52.54%20AM.png)
