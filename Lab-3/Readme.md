@@ -46,6 +46,7 @@ Do not use this for real environment because it's unsafe. We use this to simplif
   - Click the default security list. 
   - Check the ingress rule, add ingress rule
   - It should allow port 3306 from all sources to all destinations. To simplify this workshop and eliminate issue, let's put aside security by allowing all ports.  from all sources to all destinations (Set source 0.0.0.0/0, port: All on both source and destination). See below picture:
+![Image of picture1](https://github.com/tripplea-sg/MySQL_Heatwave_Workshop/blob/main/Lab-3/Screenshot%202021-02-24%20at%2012.05.43%20PM.png)
   - Click "Add Ingress Rule"
 2. Create Load Balancer for your MDS/Heatwave
 - On OCI dashboard, choose Networking > Load Balancers > Create Load Balancer
