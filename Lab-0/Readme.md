@@ -15,9 +15,9 @@ Follow this URL: https://dev.mysql.com/doc/mysql-shell/8.0/en/mysql-shell-instal
 ```
 a. Get Server's IP Address, username, and password from the instructor
 b. Connect to Server using scp or windows scp
-c. Download 3 files: sakila-schema.sql, sakila-data.sql, and data.zip
+c. Download 3 files: data.zip
 
-e.g. command in Linux: scp ftpuser@yyy.yyy.yyy.yyy:/home/ftpuser/* .
+e.g. command in Linux: scp scpuser@193.122.75.56:/home/scpuser/* .
 ```
 ## B. Install Database Server 8.0.23 if you have not install before
 Run the installer
